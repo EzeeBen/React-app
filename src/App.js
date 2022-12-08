@@ -1,13 +1,15 @@
 import "./App.css";
-import ItemListContainer from "./ItemListContainer";
-import Navbar from "./navbar";
+import ItemListContainer from "./componentes/ItemListContainer";
+import CustomNavbar from "./componentes/CustomNavbar";
+import Footer from "./componentes/Footer";
 
 const App = () => {
 
   return(
     <>
-    <Navbar />
-    <ItemListContainer mensaje = "Buenas noches tutor! Corrijame"/>
+    <CustomNavbar />
+    <ItemListContainer/>
+    <Footer />
     </>
     
   )
